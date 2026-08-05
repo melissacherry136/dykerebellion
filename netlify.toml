@@ -1,0 +1,6 @@
+# Netlify configuration for Dyke Rebellion
+# Static single-file site — no build step, publish the repo root.
+
+[build]
+  publish = "."
+  command = ""

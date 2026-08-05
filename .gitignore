@@ -1,0 +1,17 @@
+# OS / cloud-sync cruft — never commit these
+desktop.ini
+Thumbs.db
+ehthumbs.db
+.DS_Store
+.DS_Store?
+._*
+
+# OneDrive temp folders
+.tmp.drivedownload/
+.tmp.driveupload/
+
+# Editor junk
+*.swp
+*~
+.vscode/
+.idea/
