@@ -2,7 +2,7 @@
 
 Website for **Dyke Rebellion™** — a queer women & nonbinary motorcycle club in the Bay Area, California. Est. 2026.
 
-Live site: https://www.dykerebellion.com
+Live site: https://dykerebellion.com
 
 ## How it works
 
@@ -10,6 +10,9 @@ This repo is a single, self-contained static site. `index.html` has all styles, 
 
 - **`index.html`** — the whole site (hero, buttons, ride calendar, Merch, Founders, contact).
 - **`logo.png`** — transparent club patch, used for social/link-preview images.
+- **`og-image.jpg`** — 1200×630 link-preview image (Facebook, iMessage, etc.).
+- **`favicon.ico`, `favicon-48.png`, `icon-192.png`, `apple-touch-icon.png`** — browser/search-result icons.
+- **`robots.txt`, `sitemap.xml`** — search-engine crawling. Bump `<lastmod>` in the sitemap when the page changes.
 - **`netlify.toml`** — Netlify deploy config (publishes the repo root).
 
 The Rides section embeds the public **"Dyke Rebellion Rides & Events"** Google Calendar, so new rides added in Google Calendar appear on the site automatically.
