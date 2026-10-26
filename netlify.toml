@@ -18,3 +18,9 @@
   for = "/favicon.ico"
   [headers.values]
     Cache-Control = "public, max-age=604800"
+
+# Old GoDaddy parked-page URL Google still remembers
+[[redirects]]
+  from = "/lander"
+  to = "/"
+  status = 301
