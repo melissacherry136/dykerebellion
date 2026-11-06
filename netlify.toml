@@ -19,6 +19,13 @@
   [headers.values]
     Cache-Control = "public, max-age=604800"
 
+# Merch mockups can be pulled into the Shopify admin
+[[headers]]
+  for = "/merch/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=604800"
+
 # Old GoDaddy parked-page URL Google still remembers
 [[redirects]]
   from = "/lander"
