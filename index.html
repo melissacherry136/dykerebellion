@@ -148,6 +148,11 @@ h1 .tm{font-size:.34em; vertical-align:super; font-weight:600; letter-spacing:0;
 .panel p{color:var(--bone-dim); max-width:44ch; margin:18px auto 0; font-size:1.02rem; line-height:1.6}
 .panel .back{display:inline-block; margin-top:26px; font-family:'Oswald',sans-serif; text-transform:uppercase; letter-spacing:.16em; font-size:.78rem; color:var(--purple-lt); text-decoration:none}
 .panel .back:hover{color:#fff}
+.product{display:block; max-width:300px; margin:28px auto 0; border:1.5px solid var(--line); border-radius:6px; overflow:hidden; background:var(--ink-2); text-decoration:none; color:var(--bone); transition:border-color .2s,transform .2s}
+.product:hover{border-color:var(--purple-lt); transform:translateY(-3px)}
+.product img{display:block; width:100%; height:auto; aspect-ratio:1/1; object-fit:cover; background:#fff}
+.product .pname{display:block; font-family:bronson-gothic-jf,'Oswald',sans-serif; font-weight:400; text-transform:uppercase; font-size:1.15rem; letter-spacing:.03em; padding:14px 10px 2px; border-top:2px solid var(--red)}
+.product .pprice{display:block; font-family:'Oswald',sans-serif; letter-spacing:.12em; font-size:.82rem; color:var(--bone-dim); padding:0 10px 14px}
 
 /* ride calendar */
 .rides{margin:28px auto 0; max-width:520px; text-align:left}
@@ -212,8 +217,13 @@ footer{position:relative; z-index:2; margin-top:auto; padding-top:48px;
   <!-- MERCH -->
   <section class="panel" id="merch">
     <h2>Merch</h2>
-    <div><span class="soon">Coming Soon</span></div>
-    <p>Patches, tees, and more are on the way. Check back soon — or follow us on Facebook to hear when the store opens.</p>
+    <p>The store is open. Rep the club on and off the bike.</p>
+    <a class="product" href="https://dyke-rebellion.myshopify.com/products/free-dyke-hugs-v-neck-purple" target="_blank" rel="noopener">
+      <img src="https://cdn.shopify.com/s/files/1/0698/9148/9876/files/regular_67695b28-747e-4757-b280-944baff8ff7d.jpg?v=1793997070&amp;width=600" alt="Free Dyke Hugs purple V-neck tee" loading="lazy" width="600" height="600">
+      <span class="pname">Free Dyke Hugs V-Neck</span>
+      <span class="pprice">Purple · from $16.80</span>
+    </a>
+    <div style="margin-top:26px"><a class="btn primary" href="https://dyke-rebellion.myshopify.com/collections/all" target="_blank" rel="noopener">Shop the Merch</a></div>
     <a class="back" href="#top">↑ Back to top</a>
   </section>
 
